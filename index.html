@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUMIRAR | サッカースクール向けWebサイト制作デモ</title>
+  <meta name="description" content="サッカースクール・クラブチーム向けのサブスクリプション型ホームページ制作パッケージ。3つのデザインテーマをご覧いただけます。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="EDUMIRAR トップへ">EDUMIRAR</a>
+      <nav class="header-nav">
+        <a href="#demos" class="nav-link">デモサイト</a>
+        <a href="#footer-cta" class="nav-link nav-cta">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-label">SOCCER SCHOOL × WEB DESIGN</p>
+      <h1 class="hero-heading">チームの魅力を最大化する、<br>高品質なWebサイト</h1>
+      <p class="hero-sub">サッカースクール・クラブチーム向けのサブスクリプション型ホームページ制作パッケージ。<br>ターゲットやチームカラーに合わせて、最適なデザインをご提案します。</p>
+      <a href="#demos" class="hero-btn">デモサイトを見る ↓</a>
+    </div>
+    <div class="hero-bg-deco" aria-hidden="true">
+      <svg class="deco-circle" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="300" cy="300" r="280" stroke="#E5E7EB" stroke-width="1.5"/>
+        <circle cx="300" cy="300" r="200" stroke="#E5E7EB" stroke-width="1"/>
+        <circle cx="300" cy="300" r="120" stroke="#E5E7EB" stroke-width="0.75"/>
+        <line x1="300" y1="20" x2="300" y2="580" stroke="#E5E7EB" stroke-width="0.75"/>
+        <line x1="20" y1="300" x2="580" y2="300" stroke="#E5E7EB" stroke-width="0.75"/>
+        <circle cx="300" cy="300" r="12" fill="#E5E7EB" opacity="0.5"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== DEMO GALLERY ===== -->
+  <section class="gallery" id="demos">
+    <div class="gallery-inner">
+      <div class="section-header">
+        <span class="section-label">DEMO SITES</span>
+        <h2 class="section-title">3つのデザインテーマ</h2>
+        <p class="section-desc">それぞれのスクールのコンセプトに合わせて、最適なテーマをお選びいただけます。</p>
+      </div>
+
+      <div class="cards-grid">
+
+        <!-- Card A: Standard -->
+        <article class="demo-card">
+          <a href="https://takahumi0110-lgtm.github.io/website-school/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Clean & Trust（スタンダード）デモサイトを別タブで開く">
+            <div class="card-thumb">
+              <img src="assets/images/thumb-theme-a.jpg" alt="Theme A" class="thumb-img">
+              <div class="card-thumb-fallback" aria-hidden="true">
+                <span class="thumb-label">Theme A</span>
+              </div>
+              <div class="card-overlay">
+                <span class="overlay-text">サイトを見る →</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="card-theme-tag tag-a">THEME A</div>
+            <h3 class="card-title">Clean &amp; Trust</h3>
+            <p class="card-subtitle">スタンダード</p>
+            <p class="card-desc">保護者に安心感を与える、見やすさと信頼性を重視したクリーンなデザイン。どのようなスクールにも馴染む万能型です。</p>
+            <a href="https://takahumi0110-lgtm.github.io/website-school/" target="_blank" rel="noopener noreferrer" class="card-btn">
+              サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 7H12M12 7L8 3M12 7L8 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card B: Urban -->
+        <article class="demo-card">
+          <a href="https://takahumi0110-lgtm.github.io/website-school-alt/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Urban & Dynamic（アーバン）デモサイトを別タブで開く">
+            <div class="card-thumb">
+              <img src="assets/images/thumb-theme-b.jpg" alt="Theme B" class="thumb-img">
+              <div class="card-thumb-fallback" aria-hidden="true">
+                <span class="thumb-label">Theme B</span>
+              </div>
+              <div class="card-overlay">
+                <span class="overlay-text">サイトを見る →</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="card-theme-tag tag-b">THEME B</div>
+            <h3 class="card-title">Urban &amp; Dynamic</h3>
+            <p class="card-subtitle">アーバン・ダイナミック</p>
+            <p class="card-desc">ストリートの躍動感とアグレッシブさを表現。他チームとの明確な差別化や、ユース世代への強いアピールに最適です。</p>
+            <a href="https://takahumi0110-lgtm.github.io/website-school-alt/" target="_blank" rel="noopener noreferrer" class="card-btn">
+              サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 7H12M12 7L8 3M12 7L8 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card C: Monochrome -->
+        <article class="demo-card">
+          <a href="https://takahumi0110-lgtm.github.io/website-school-minimal/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Monochrome & Minimal（モノクローム）デモサイトを別タブで開く">
+            <div class="card-thumb">
+              <img src="assets/images/thumb-theme-c.jpg" alt="Theme C" class="thumb-img">
+              <div class="card-thumb-fallback" aria-hidden="true">
+                <span class="thumb-label">Theme C</span>
+              </div>
+              <div class="card-overlay">
+                <span class="overlay-text">サイトを見る →</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="card-theme-tag tag-c">THEME C</div>
+            <h3 class="card-title">Monochrome &amp; Minimal</h3>
+            <p class="card-subtitle">モノクローム・モダン</p>
+            <p class="card-desc">洗練された高級感とエディトリアルな美しさ。ブランド力を高めたいスクールや、プレミアムな指導環境を魅せたい場合に有効です。</p>
+            <a href="https://takahumi0110-lgtm.github.io/website-school-minimal/" target="_blank" rel="noopener noreferrer" class="card-btn">
+              サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 7H12M12 7L8 3M12 7L8 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+      </div><!-- /cards-grid -->
+    </div><!-- /gallery-inner -->
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" id="footer-cta">
+    <div class="footer-inner">
+      <p class="footer-cta-text">導入のご相談・お見積りはお気軽にお声がけください</p>
+      <p class="footer-logo">EDUMIRAR</p>
+      <p class="footer-copy">&copy; EDUMIRAR All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // スムーススクロール
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // ヘッダーのスクロールシャドウ
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
